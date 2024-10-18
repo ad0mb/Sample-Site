@@ -1,0 +1,11 @@
+* {
+    padding: 0; /* Padding of every element */
+    margin: 0; /* Space between every element and everything else */
+    border: 0; /* Border around every element */
+
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #0f100f;
+}

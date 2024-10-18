@@ -1,0 +1,36 @@
+/*
+Border is the space around each element
+Padding is inside, space between the content and the border
+Margin is the space between the element and other margins (other elements)
+ */
+
+
+
+.top-container {
+
+    background-color: #262929;
+
+    height: 50px;
+
+    display: flex;
+    justify-content: right;
+}
+
+.top-container .top-button {
+    margin-top: 12px;
+}
+
+.top-container .sign-in {
+    background-color: #33ff83;
+
+    font-style: initial;
+    font-size: 13px;
+    font-family: "Lucida Console";
+
+    height: 28px;
+    width: 75px;
+    border-radius: 20px;
+
+    margin-right: 85px;
+}
+

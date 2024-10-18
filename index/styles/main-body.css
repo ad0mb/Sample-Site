@@ -1,0 +1,43 @@
+.main-body {
+    display: flex;
+    justify-content: left;
+}
+
+
+.left-panel {
+    background-color: #191b1e;
+
+    height: 800px;
+    width: 360px;
+    border-radius: 20px;
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.left-panel .title {
+    color: white;
+    font-size: 25px;
+    font-family: "Lucida Console";
+
+    height: 25px;
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+    display: inline-block;
+}
+
+.left-panel .seperator {
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+
+    width: 330px;
+    height: 1px;
+
+    margin-top: 30px;
+    margin-left: 15px;
+}
