@@ -34,3 +34,7 @@ Margin is the space between the element and other margins (other elements)
     margin-right: 85px;
 }
 
+.top-container .sign-in:active {
+    background-color: #209c4e;
+}
+
