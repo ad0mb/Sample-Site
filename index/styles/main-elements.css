@@ -3,6 +3,8 @@
     margin: 0; /* Space between every element and everything else */
     border: 0; /* Border around every element */
 
+    color: white;
+
     box-sizing: border-box;
 }
 
