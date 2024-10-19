@@ -1,0 +1,81 @@
+.left-panel {
+    background-color: #191b1e;
+
+    height: 800px;
+    width: 360px;
+    border-radius: 20px;
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.left-panel .title {
+    font-size: 25px;
+    font-family: "Lucida Console";
+
+    height: 25px;
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+    display: inline-block;
+}
+
+.left-panel .separator {
+    border: 1px solid #2b2929;
+    border-radius: 100px;
+
+    width: 330px;
+    height: 1px;
+
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.left-panel .scroll-box {
+    height: 700px;
+    width: 348px;
+
+    margin-left: 7px;
+    margin-top: 7px;
+    overflow-y: auto;
+
+}
+
+.left-panel .scroll-box::-webkit-scrollbar {
+    display: none;
+}
+
+.left-panel .scroll-item {
+    background-color: #131417;
+    border-radius: 20px;
+
+    height: 100px;
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.left-panel .scroll-item .title {
+    font-size: 15px;
+
+    margin-top: -23px;
+    margin-left: 40px;
+    margin-bottom: 70px;
+}
+
+.left-panel .scroll-item .separator {
+    border: 1px solid white;
+
+    width: 290px;
+
+
+    margin-left: 20px;
+}
