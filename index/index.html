@@ -4,19 +4,33 @@
     <meta charset="UTF-8">
     <title>My Sample Site</title>
     <link rel="stylesheet" href="styles/main-elements.css">
-    <link rel="stylesheet" href="styles/top-bar.css">
-    <link rel="stylesheet" href="styles/main-body.css">
+    <link rel="stylesheet" href="styles/top-bar/top-bar.css">
+    <link rel="stylesheet" href="styles/main-body/main-body.css">
+    <link rel="stylesheet" href="styles/main-body/left-panel.css">
+    <link rel="stylesheet" href="styles/main-body/slides/side-scrolling-images.css">
 </head>
 <body>
     <div class="top-container">
         <button class="top-button sign-in">Sign In</button>
+        <img class="profile-picture" src="styles/top-bar/EmptyProfile.png" alt="Empty Profile Picture">
     </div>
 
     <div class="main-body">
         <div class="left-panel">
             <span class="title">Title Here</span>
             <div class="seperator"></div>
+        <div class="side-scrolling-images">
+            <div class="picture-container">
+                <img class="picture" src="styles/main-body/slides/images/1.jpg" alt="Image of camera next to neon lights">
+                <img class="picture" src="styles/main-body/slides/images/2.jpg" alt="Image of a man holding a camera">
+                <img class="picture" src="styles/main-body/slides/images/3.jpg" alt="Image of a girl holding out cupcakes to the camera">
+                <img class="picture" src="styles/main-body/slides/images/4.jpg" alt="Image of a pretty lady">
+                <img class="picture" src="styles/main-body/slides/images/5.jpg" alt="Image of a finger pressed up against a stock market interface">
+                <img class="picture" src="styles/main-body/slides/images/6.jpg" alt="Image of delicous food being touched from a top view">
+            </div>
         </div>
     </div>
+
+    <script src="styles/main-body/slides/side-scrolling.js"></script>
 </body>
 </html>
